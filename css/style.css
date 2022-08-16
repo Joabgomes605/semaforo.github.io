@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210403/pngtree-city-sky-over-the-city-image_601066.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    width: 20%;
+    height: 500px;
+    background-color: #494949ce;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section > .vermelho{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+section > .amarelo{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+section > .verde{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border-radius: 50px;
+}
+

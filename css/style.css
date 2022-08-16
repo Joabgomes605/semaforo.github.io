@@ -28,23 +28,23 @@ section{
 }
 
 section > .vermelho{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: red;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
 section > .amarelo{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: yellow;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 
 section > .verde{
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     background-color: green;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 

@@ -3,7 +3,7 @@ let sinal_amarelo = document.getElementById("amarelo");
 let sinal_verde = document.getElementById("verde");
 let corpo = document.getElementById("body")
 
-let sinal = () => {
+let sinais = () => {
     sinal_vermelho.addEventListener("click", () => {
         corpo.style.backgroundImage = "url('https://p4.wallpaperbetter.com/wallpaper/1021/284/1018/shanghai-buildings-sky-light-wallpaper-preview.jpg')";
     })
@@ -16,4 +16,4 @@ let sinal = () => {
         corpo.style.backgroundImage = "url('https://c0.wallpaperflare.com/preview/276/709/285/brazil-botucatu-clouds-nuvens.jpg')";
     })
 }
-sinal();
+sinais();

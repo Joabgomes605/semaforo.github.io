@@ -31,35 +31,65 @@ section{
 section > .vermelho{
     width: 120px;
     height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: red;
     border-radius: 60px;
     opacity: 0.3;
+}
+section > .vermelho > h3{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 section > .vermelho:hover{
     opacity: 1;
     cursor: pointer;
 }
+section > .vermelho > h3:hover{
+    font-size: 25px;
+}
 
 section > .amarelo{
     width: 120px;
     height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: yellow;
     border-radius: 60px;
     opacity: 0.3;
+}
+section > .amarelo > h3{
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 section > .amarelo:hover{
     opacity: 1;
     cursor: pointer;
 }
+section > .amarelo > h3:hover{
+    font-size: 25px;
+}
 
 section > .verde{
     width: 120px;
     height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: green;
     border-radius: 60px;
     opacity: 0.3;
 }
+section > .verde > h3{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 section > .verde:hover{
     opacity: 1;
     cursor: pointer;
+}
+section > .verde > h3:hover{
+    font-size: 25px;
 }

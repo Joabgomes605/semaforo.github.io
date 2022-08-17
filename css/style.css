@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210403/pngtree-city-sky-over-the-city-image_601066.jpg");
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20210403/pngtree-city-sky-over-the-city-image_601066.jpg"), url("https://www.10wallpaper.com/wallpaper/1366x768/1610/Beautiful_City_Lights_At_Night-Cities_Photo_HD_Wallpaper_1366x768.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -15,6 +15,7 @@ body{
     align-items: center;
     justify-content: center;
 }
+
 
 section{
     width: 20%;

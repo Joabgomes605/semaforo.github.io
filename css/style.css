@@ -20,7 +20,7 @@ body{
 section{
     width: 20%;
     height: 500px;
-    background-color: #070707;
+    background-color: #000000;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
